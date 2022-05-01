@@ -2,3 +2,23 @@
     width: 100%;
     height: 70vh;
 }
+
+body {
+    background-color: antiquewhite;
+    color: hsl(355, 92%, 48%);
+}
+
+#task-submit {
+    background-color: aqua;
+    color: brown;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#task-submit:hover {
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: brown;
+}
