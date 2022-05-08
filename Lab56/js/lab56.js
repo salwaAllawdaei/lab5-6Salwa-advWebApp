@@ -1,7 +1,7 @@
 
 const geoKey = "d5d2ee05032da2352d58fe53fda8106b";
 
-mapboxgl.accessToken = "pk.eyJ1IjoiNjE4NzE0NCIsImEiOiJjbDJhZmxldmYwMHdoM2NwN2cxNGZkcjVnIn0.nk5Yfg6OGIE8gS3F_XA0QQ";
+mapboxgl.accessToken = "pk.eyJ1Ijoic2Fsd2FhbGxhd2RhZWkiLCJhIjoiY2wyZ2dibGVxMDFlejNibGExY2k4dnd2eSJ9.143tQma4_jUSGYx-vsH4Kw";
 let map;
 
 let hydrants = [];
@@ -87,7 +87,7 @@ let getLab56s = async function () {
 let mapInit = function () {
     map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/6187144/cl2afv12m000c14p5qtma8qwz',
+        style: 'mapbox://styles/salwaallawdaei/cl2gj7gj3000p15ny60kbfji8',
         center: [-75.765, 45.456],
         zoom: 13.5
     });
